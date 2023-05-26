@@ -1,0 +1,14 @@
+{% extends 'default.html' %}
+{% load custom_filters %}
+{% block title %}
+Новость
+{% endblock title %}
+{% block content %}
+<h1>{{news.state_news}}</h1>
+<br>
+<h5>{{ news.text}}</h5>
+<br>
+<h7>{{ news.id_author}}</h7>
+<br>
+<h8>{{ news.datetime_create }}</h8>
+{% endblock content %}

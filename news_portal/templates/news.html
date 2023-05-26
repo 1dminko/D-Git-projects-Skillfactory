@@ -1,0 +1,27 @@
+{% extends 'default.html' %}
+{% load custom_filters %}
+{% block title %}
+Новости
+{% endblock title %}
+
+{% block content %}
+ <h1>Все новости</h1>
+  <br>
+
+{% if news %}
+ <ul class="list-group">
+  <li class="list-group-item active"><strong>Новости</strong></li>
+   {% for news in news %}
+  <li class="list-group-item">
+     <a href="http://127.0.0.1:8000/news/{{news.id}}">{{ news }}</a>
+   <br>
+<!--   <h8>{{ news.text|censor}}</h8>>-->
+   <br>
+   <h10>{{ news.datetime_create}}</h10>>
+  </li>>
+   {% endfor %}
+ </ul>>
+{% else %}
+ <h2> Новостей нет! </h2>
+{% endif %}
+{% endblock content %}
