@@ -12,8 +12,6 @@
 <!--<br>-->
 <h3>{% current_time '%b %d %Y' %}</h3>
 <br>
-<h4>Фильтр</h4>>
-<br>
  <form action="" method="get">
 
        {{ filterset.form.as_p }}
@@ -24,7 +22,7 @@
 <br>
 {% if news %}
  <ul class="list-group">
-  <li class="list-group-item active"><strong>Новости</strong></li>
+  <li class="list-group-item active"><strong>Категории</strong></li>
    {% for news in news %}
   <li class="list-group-item">
      <a href="http://127.0.0.1:8000/news/{{news.id}}">{{ news }}</a>

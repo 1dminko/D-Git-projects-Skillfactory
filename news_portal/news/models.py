@@ -24,6 +24,9 @@ class Author(models.Model):
 class Category(models.Model):
     name_cat = models.CharField(unique=True, max_length=64)
 
+    def __str__(self):
+        return f'{self.name_cat}'
+
 
 state = 'ST'
 news = 'NW'
