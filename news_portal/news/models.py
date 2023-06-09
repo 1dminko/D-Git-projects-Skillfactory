@@ -6,9 +6,6 @@ class Author(models.Model):
     id_user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
     user_rating = models.IntegerField(default=0)
 
-    def __str__(self):
-        return f'{self.id_user.username}'
-
     def update_rating(self):
         rnews = self.object.aggregate(newsRating=Sum('rating_news'))
         rn = 0
@@ -18,6 +15,10 @@ class Author(models.Model):
         rc += rcomment.get('commentRating')
         self.user_rating = rn*3 + rc
         self.save()
+
+    def __str__(self):
+        return f'{self.id_user.username}'
+
 
 
 
