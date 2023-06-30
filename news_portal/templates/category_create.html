@@ -1,5 +1,6 @@
 {% extends 'default.html' %}
-
+{% load cache %}
+{% cache 30 content %}
 {% block content %}
 <h1>Новая категория</h1>>
 <hr>
@@ -8,4 +9,5 @@
     {{ form.as_p}}
     <input type="submit" value="Сохранть" />
 </form>
-{% endblock content %}}
+{% endblock content %}
+{% endcache %}

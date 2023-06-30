@@ -16,11 +16,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.views.decorators.cache import cache_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('news.urls')),
     path('news/', include('news.urls')),
-    path('', include('protect.urls')),
+    path('login/', include('protect.urls')),
     path('sign/', include('sign.urls')),
     path('accounts/', include('allauth.urls')),
+    path('appointments/', include('appointments.urls')),
+    path('category/', include('news.urls')),
+
+
 ]
