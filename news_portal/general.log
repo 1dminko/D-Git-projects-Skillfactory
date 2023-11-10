@@ -1,0 +1,19 @@
+INFO 2023-11-09 20:37:38,722 autoreload  Watching for file changes with StatReloader
+INFO 2023-11-09 20:38:37,457 autoreload  Watching for file changes with StatReloader
+INFO 2023-11-09 20:44:41,037 autoreload  Watching for file changes with StatReloader
+INFO 2023-11-09 20:51:09,982 autoreload  /home/adminko/projects/NewsPortal/news_portal/news_portal/settings.py changed, reloading.
+INFO 2023-11-09 20:56:26,828 autoreload  Watching for file changes with StatReloader
+INFO 2023-11-09 21:00:00,385 autoreload  Watching for file changes with StatReloader
+INFO 2023-11-09 21:01:14,262 autoreload  Watching for file changes with StatReloader
+INFO 2023-11-09 21:07:19,304 autoreload  /home/adminko/projects/NewsPortal/news_portal/news_portal/settings.py changed, reloading.
+INFO 2023-11-09 21:07:19,788 autoreload  Watching for file changes with StatReloader
+INFO 2023-11-09 21:21:10,413 autoreload  /home/adminko/projects/NewsPortal/news_portal/news_portal/settings.py changed, reloading.
+2023-11-09 21:21:10,866 INFO autoreload Watching for file changes with StatReloader
+2023-11-09 21:22:32,984 INFO autoreload /home/adminko/projects/NewsPortal/news_portal/news_portal/settings.py changed, reloading.
+2023-11-09 21:22:33,546 INFO autoreload Watching for file changes with StatReloader
+2023-11-09 21:26:40,227 INFO autoreload /home/adminko/projects/NewsPortal/news_portal/news_portal/settings.py changed, reloading.
+2023-11-09 21:26:40,705 INFO autoreload Watching for file changes with StatReloader
+2023-11-09 21:28:21,217 INFO autoreload /home/adminko/projects/NewsPortal/news_portal/news_portal/settings.py changed, reloading.
+2023-11-09 21:28:21,645 INFO autoreload Watching for file changes with StatReloader
+2023-11-09 21:30:57,424 INFO autoreload /home/adminko/projects/NewsPortal/news_portal/news_portal/settings.py changed, reloading.
+2023-11-09 21:30:58,030 INFO autoreload Watching for file changes with StatReloader
