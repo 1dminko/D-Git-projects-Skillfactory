@@ -162,15 +162,15 @@ ACCOUNT_FORMS = {'signup': 'sign.models.CommonSignupForm'}
 
 EMAIL_HOST = 'smtp.yandex.ru'  # адрес сервера отправки почты
 EMAIL_PORT = 465  # порт smtp сервера
-EMAIL_HOST_USER = 'dfghdfghdf'  # имя пользователя
-EMAIL_HOST_PASSWORD = 'fghjfghjhgfjfghjf'  # пароль от почты
+EMAIL_HOST_USER = 'dfghdfghfghdf'  # имя пользователя
+EMAIL_HOST_PASSWORD = 'fghjfghjhjjfjfghjf'  # пароль от почты
 EMAIL_USE_SSL = True  # Яндекс использует ssl
 
 ADMINS = [
     ('Mih', 'fjhgfghjghf@gmail.com'),
     # список всех админов в формате ('имя', ' почта')
 ]
-SERVER_EMAIL = 'fghjgfhjfghj@yandex.ru'  # вместо аргумента FROM в массовой рассылке
+SERVER_EMAIL = 'fghjgfhjfghhj@yandex.ru'  # вместо аргумента FROM в массовой рассылке
 
 
 CELERY_BROKER_URL = 'redis://localhost:6379'
